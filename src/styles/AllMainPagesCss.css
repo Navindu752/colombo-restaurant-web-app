@@ -1,0 +1,30 @@
+.PageSize {
+  padding-top: 4.375rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.projectPara {
+  font-size: 0.75rem;
+  line-height: 1.3rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+@media screen and (min-width: 600px) {
+  .PageSize {
+    padding-top: 4.375rem;
+    padding-left: 6.25rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .PageSize {
+    padding-top: 4.375rem;
+    padding-left: 6.25rem;
+    padding-right: 1rem;
+  }
+}

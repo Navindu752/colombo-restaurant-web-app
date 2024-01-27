@@ -1,0 +1,81 @@
+ /* paddingTop: "6rem",
+ marginLeft: {
+   lg: "6rem",
+     md: "6rem",
+     sm: "6rem",
+     xs: "6rem", */
+
+
+
+/* 
+      margin-top: {
+          lg: "0rem",
+            md: "0rem",
+            sm: "0.5rem",
+            xs:"0.5rem",
+        } */
+
+
+/* textpadding */
+
+.inputMargintop {
+  /* min-width: 120; */
+  margin-top:0rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .marginToptext {
+ /* margin-top:0.6rem; */
+ /* margin-left: 0.6rem; */
+  }
+}
+
+
+
+
+
+
+ .pageAlign {
+   margin-top: 6rem;
+   padding-left: 6rem;
+ }
+ 
+ /* page padding */
+ @media only screen and (max-width: 1200px) {
+   .pageAlign {
+    padding-left: 5.5rem;
+   }
+ }
+
+ @media only screen and (max-width: 900px) {
+   .pageAlign {
+    padding-left: 5.5rem;
+    padding-right: 0rem;
+   }
+ }
+
+ @media only screen and (max-width: 780px) {
+   .pageAlign {
+     padding-left: 5.5rem;
+     padding-right: 0.5rem;
+   }
+ }
+
+ @media only screen and (max-width: 600px) {
+   .pageAlign {
+    padding-left: 5.5rem;
+   }
+ }
+
+ @media only screen and (max-width: 455px) {
+   .pageAlign {
+    padding-left: 5.3rem;
+   }
+ }
+
+ @media only screen and (max-width: 365px) {
+   .pageAlign {
+    padding-left: 5rem;
+   }
+ }
+ 
